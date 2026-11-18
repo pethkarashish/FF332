@@ -88,6 +88,18 @@ module.exports = async kernel =>
 				}
 			},
 			{
+				method: 'shell.run',
+				params:
+				{
+					message: 'python -m pip install requests',
+					path: 'facefusion',
+					conda:
+					{
+						path: path.resolve(__dirname, '.env')
+					}
+				}
+			},
+			{
 				method: 'input',
 				params:
 				{

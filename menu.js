@@ -79,6 +79,7 @@ module.exports = async kernel =>
 	{
 		[
 			[ 'fa-solid fa-plug', 'Install', 'install.js' ],
+			[ 'fa-solid fa-wrench', 'Repair Gradio Dependency', 'repair.js' ],
 			[ 'fa-solid fa-rotate', 'Update', 'update.js' ],
 			[ 'fa-regular fa-circle-xmark', 'Reset', 'reset.js' ]
 		]

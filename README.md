@@ -11,4 +11,6 @@ This launcher is based on the official [FaceFusion Pinokio repository](https://g
 3. Open the new **FaceFusion 3.3.2** app and click **Install**.
 4. When installation finishes, click **Run Default**.
 
+If FaceFusion reports `No module named 'requests'`, choose **Repair Gradio Dependency** from the app menu, then try **Run Default** again. This installs the missing package into this app's Pinokio environment.
+
 The FaceFusion source ZIP is not needed for this Pinokio setup; the installer fetches the exact 3.3.2 release itself.
